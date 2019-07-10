@@ -6,7 +6,9 @@ const channelItem = ({channel, onChannelSelect}) => {
         <div onClick={()=>onChannelSelect(channel)}>
             
             <div className="content">
-                <div className="header" >{channel.name}</div>
+                <div className="header" >
+                    {channel.name}
+                </div>
             </div>
         </div>
     );
