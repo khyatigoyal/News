@@ -5,13 +5,13 @@ import ChannelDetail from './channeldetail.js';
 import ChannelList from './channellist';
 const apiKey ="c1a81ddb203a447fbb5303f075fd8c6b";
 class app extends React.Component {
-    state = {channels : [],channelSelected : ''};
+    state = {channels : [],channelSelected : {}};
 
     componentDidMount(){
         this.onformSubmit();
     }
     onformSubmit = async (category) => {
-        const response = await Channel.get('v2/source',{
+        const response = await Channel.get('v2/sources',{
             params:{
                 category,
                 apiKey,
