@@ -5,7 +5,7 @@ const ChannelList =({channels,onChannelSelect})=> {
         return <ChannelItem key={channel.id} onChannelSelect={onChannelSelect} channel={channel}/>
     })
     return (
-        <div className="ui cards" > 
+        <div className="ui divided stackable items" > 
         {renderedList}
         </div>
     )

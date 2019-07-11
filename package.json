@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "awesome": "0.0.7",
     "axios": "^0.19.0",
+    "font": "0.0.4",
     "newsapi": "^2.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

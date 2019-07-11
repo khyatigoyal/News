@@ -6,7 +6,7 @@ class searchNews extends React.Component {
     };
     handlechange = (event) => {
         this.setState({
-            category : event.target.value,
+            q : event.target.value,
         })
     };
     handlesubmit = (event) => {

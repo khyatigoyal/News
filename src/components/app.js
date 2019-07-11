@@ -8,7 +8,7 @@ class app extends React.Component {
     state = {channels : [],channelSelected : {}};
 
     componentDidMount(){
-        this.onhandleclick();
+        this.onhandleclick("entertainment");
     }
     onhandleclick = async (category) => {
         const response = await Channel.get('v2/sources',{
@@ -34,7 +34,7 @@ class app extends React.Component {
         
         return(
                 
-                    <div className="ui internally celled  grid">
+                    <div className="ui internally celled grid">
                         <div className="row">
                             <div className="sixteen wide column">
                                 <CategoryMenu handleClick = {this.onhandleclick}/>

@@ -1,17 +1,23 @@
 
 import React from 'react';
-import Channeltv from '../pngtree-tv-head.png';
+import Channeltv from '../images/pngtree-tv-head.png';
 const channelItem = ({channel, onChannelSelect}) => {
     return (
-        <div className="violet raised card" onClick={()=>onChannelSelect(channel)}>
+        <div className="item" onClick={()=>onChannelSelect(channel)}>
         
-            <div className="content">
-            <img className="right floated mini ui circular image" alt="..." src={Channeltv}/>
+            <div className="middle aligned content">
+            <img className="left floated mini ui circular image" alt="..." src={Channeltv}/>
                 <a className="header">
                     {channel.name}
                 </a>
                 <div className="meta">
+                    <i className="favorite icon"></i>
                     {channel.id}
+                </div>
+                <div className="extra">
+                    <div className="ui right floated primary button">
+                        Click
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,8 +1,4 @@
 import React from 'react';
-import Entertainment from '../entertainment.png';
-import Science from '../science.png';
-import Technology from '../technology.png';
-
 class CategoryMenu extends React.Component{
     handleclick =(category)=>{
         this.props.handleClick(category)
@@ -10,40 +6,34 @@ class CategoryMenu extends React.Component{
     render(){
 
     return(
-        
-            <div className="ui fixed top seven item compact inverted large menu">
             <div className="ui container">
+                <div className="ui inverted fixed top seven item massive menu">
+            
                         <a onClick={()=>{this.handleclick("entertainment")}} className="item">
-                        <img alt="..." src={Entertainment}/>
-                        entertainment
+                        <i className="film large icon"/>
                         </a>
                         <a onClick={()=>{this.handleclick("general")}} className="item">
-                        <i className="file icon"></i>
-                        general
+                        <i className="file large icon"></i>
                         </a>
                         <a onClick={()=>{this.handleclick("sports")}} className="item">
-                        <i className="football ball icon"></i>
-                        sports
+                        <i className="football ball large icon"></i>
+                        
                         </a>
                         <a onClick={()=>{this.handleclick("science")}} className="item">
-                        <img alt="..." src={Science}/>
-                        science
+                        <i className="user md large icon"/>
                         </a>
                         <a onClick={()=>{this.handleclick("technology")}} className="item">
-                        <img alt="..." src={Technology}/>
-                        technology
+                        <i className="laptop large icon"/>
                         </a>
                         <a onClick={()=>{this.handleclick("health")}} className="item">
-                        <i className="medkit icon"></i>
-                        health
+                        <i className="medkit large icon"></i>
                         </a>
                         <a onClick={()=>{this.handleclick("business")}} className="item">
-                        <i className="chart line icon"></i>
-                        business
+                        <i className="chart line large icon"></i>
                         </a>
-                 
-        </div>
-    </div>
+                        </div>         
+                    </div>
+    
         )
     }
 }
