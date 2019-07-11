@@ -32,7 +32,7 @@ class channelDetail extends React.Component{
         const  channel=this.props.channel;
         const  countryflag = channel.country + " flag";
         return(
-                <div className="container" onClick={()=>{this.onhandleclick(channel.name)}}>
+                <div className="container" >
                     <div className="ui grid">
                         <div className="row">
                             <div className="sixteen wide column">
@@ -47,7 +47,7 @@ class channelDetail extends React.Component{
                                     <img alt="Loading..." src={MaleReporter} className="visible content" />
                                 </div>
                                 <div className="content">
-                                    <div className="ui right floated red button">
+                                    <div className="ui right floated red button" onClick={()=>{this.onhandleclick(channel.name)}}>
                                         News Snippets
                                     </div>
                                     <a href={channel.url} className="header">{channel.name}</a>
