@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/News/static/js/main.a6ed241b.chunk.js",
+    "main.js.map": "/News/static/js/main.a6ed241b.chunk.js.map",
+    "runtime~main.js": "/News/static/js/runtime~main.a19ba134.js",
+    "runtime~main.js.map": "/News/static/js/runtime~main.a19ba134.js.map",
+    "static/js/2.af04cce6.chunk.js": "/News/static/js/2.af04cce6.chunk.js",
+    "static/js/2.af04cce6.chunk.js.map": "/News/static/js/2.af04cce6.chunk.js.map",
+    "index.html": "/News/index.html",
+    "precache-manifest.5bc82f23c5df8e8ee5454b8240a794ac.js": "/News/precache-manifest.5bc82f23c5df8e8ee5454b8240a794ac.js",
+    "service-worker.js": "/News/service-worker.js",
+    "static/media/business.png": "/News/static/media/business.48e5095a.png",
+    "static/media/health.png": "/News/static/media/health.1f6a5490.png",
+    "static/media/malereporter.png": "/News/static/media/malereporter.06605b7c.png",
+    "static/media/pngtree-tv-head.png": "/News/static/media/pngtree-tv-head.5ee4bd1d.png",
+    "static/media/reporter.png": "/News/static/media/reporter.c38d983e.png",
+    "static/media/snippets.png": "/News/static/media/snippets.e78057e5.png",
+    "static/media/sports.png": "/News/static/media/sports.2afceed3.png",
+    "static/media/technology.png": "/News/static/media/technology.aa0cd47f.png"
+  }
+}
