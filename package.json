@@ -6,7 +6,7 @@
   "dependencies": {
     "awesome": "0.0.7",
     "gh-pages": "^2.0.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "font": "0.0.4",
     "react-scripts": "3.0.1",
     "newsapi": "^2.4.0",
